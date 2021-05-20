@@ -15,8 +15,11 @@
 .search {
     font-size: 25px;
 }
-.p {
+.p-horizontal {
     padding: 0 15px;
+}
+.p-vertical {
+    padding: 15px 0;
 }
 .radius {
     border-radius: 20px;
@@ -26,6 +29,29 @@
 .radius:hover {
     background-color: grey;
     border-color: grey;
+}
+.jumbotron {
+    position: relative;
+}
+.jumbo-image {
+    width: 100%;
+    position: absolute;
+}
+.logo-jumbo {
+    width: 300px;
+}
+.jumbo-content {
+    position: absolute;
+    color: white;
+}
+.buy {
+    color: white;
+    background-color: #CD3D0F;
+    border-color: #CD3D0F;
+}
+.buy:hover {
+    background-color: lightcoral;
+    border-color: lightcoral;
 }
 @media all and (max-width: 1200px) {
     .sony {
