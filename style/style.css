@@ -4,6 +4,7 @@
 }
 .logo {
     width: 100px;
+    flex-grow: 1;
 }
 .strong {
     color: black;
@@ -20,6 +21,9 @@
 }
 .p-vertical {
     padding: 15px 0;
+}
+.p-jumbo {
+    padding-top: 350px;
 }
 .radius {
     border-radius: 20px;
@@ -52,9 +56,4 @@
 .buy:hover {
     background-color: lightcoral;
     border-color: lightcoral;
-}
-@media all and (max-width: 1200px) {
-    .sony {
-        display: none;
-    }
 }
