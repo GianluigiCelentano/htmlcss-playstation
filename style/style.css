@@ -35,17 +35,15 @@
     border-color: grey;
 }
 .jumbotron {
-    position: relative;
-}
-.jumbo-image {
-    width: 100%;
-    position: absolute;
+    height: 700px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
 }
 .logo-jumbo {
     width: 300px;
 }
 .jumbo-content {
-    position: absolute;
     color: white;
 }
 .buy {
