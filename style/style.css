@@ -1,0 +1,34 @@
+.sony {
+    height: 50px;
+    background-color: black;
+}
+.logo {
+    width: 100px;
+}
+.strong {
+    color: black;
+    font-weight: bold;
+}
+.logo-sony {
+    margin-top: 10px;
+}
+.search {
+    font-size: 25px;
+}
+.p {
+    padding: 0 15px;
+}
+.radius {
+    border-radius: 20px;
+    border-color: grey;
+    color: grey;
+}
+.radius:hover {
+    background-color: grey;
+    border-color: grey;
+}
+@media all and (max-width: 1200px) {
+    .sony {
+        display: none;
+    }
+}
