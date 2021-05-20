@@ -55,3 +55,7 @@
     background-color: lightcoral;
     border-color: lightcoral;
 }
+.box {
+    width: 150px;
+    border-radius: 20px;
+}
