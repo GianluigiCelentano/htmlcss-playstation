@@ -118,7 +118,10 @@
     background-size: cover;
     background-position: center;
 }
-
+.list-of-games {
+    background-color: #1F1F1F;
+    height: 700px;
+}
 
 
 
