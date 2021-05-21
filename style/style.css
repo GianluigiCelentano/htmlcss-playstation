@@ -22,7 +22,13 @@
 .p-vertical {
     padding: 15px 0;
 }
+.p-vertical-big {
+    padding: 100px 0;
+}
 .p-jumbo {
+    padding-top: 350px;
+}
+.p-jumbo-2 {
     padding-top: 350px;
 }
 .radius {
@@ -58,4 +64,66 @@
 .box {
     width: 150px;
     border-radius: 20px;
+}
+.box-border {
+    border: 2px solid white;
+    width: 154px;
+    border-radius: 20px;
+}
+.box-border:hover {
+    border: 2px solid #2D64E6;
+    border-radius: 20px;
+}
+.no-limits {
+    color: #2D64E6;
+    font-weight: bold;
+}
+.h1-description {
+    color: lightslategray;
+    font-weight: bold;
+}
+.blue {
+    background-color: #2D64E6;
+    border: #2D64E6;
+}
+.blue:hover {
+    background-color: lightgrey;
+    border: lightgrey;
+}
+.resize {
+    height: 800px;
+}
+.gadget-box {
+    width: 120px;
+}
+.box-border-bottom {
+    border-bottom: 2px solid white;
+    width: 120px;
+    opacity: 0.5;
+}
+.box-border-bottom:hover {
+    border-bottom: 2px solid #2D64E6;
+    width: 120px;
+    opacity: initial;
+}
+
+
+
+
+
+@media all and (min-width: 576px) {
+    .p-jumbo-2 {
+        padding: 0 0;
+    }
+    .resize {
+        height: 400px;
+    }
+}
+@media all and (min-width: 900px) {
+    .p-jumbo-2 {
+        padding-top: 350px;
+    }
+    .resize {
+        height: 800px;
+    }
 }
