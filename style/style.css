@@ -2,7 +2,7 @@
     height: 50px;
     background-color: black;
 }
-.banner-ps-plus-games, .ps4-things, .gadget-box, .resize, .logo-jumbo, .ps5-width, .logo, .discount-box, .social-box {
+.banner-ps-plus-games, .ps4-things, .gadget-box, .resize, .logo-jumbo, .ps5-width, .logo, .discount-box, .social-box, .box, .box-border {
     width: 100%;
     cursor: pointer;
 }
@@ -37,8 +37,10 @@
 .p-jumbo, .p-jumbo-2 {
     padding-top: 350px;
 }
-.radius {
+.b-20 {
     border-radius: 20px;
+}
+.radius {
     border-color: grey;
     color: grey;
 }
@@ -64,10 +66,6 @@
 .buy:hover {
     background-color: lightcoral;
     border-color: lightcoral;
-}
-.box, .box-border {
-    width: 100%;
-    border-radius: 20px;
 }
 .box-border {
     border: 2px solid white;
@@ -112,11 +110,9 @@
 }
 .available-box {
     width: 100%;
-    border-radius: 20px;
 }
 .box-available-border {
     border: 2px solid #1F1F1F;
-    border-radius: 20px;
     margin-top: 40px;
 }
 .box-available-border:hover {
