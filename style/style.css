@@ -2,8 +2,9 @@
     height: 50px;
     background-color: black;
 }
-.banner-ps-plus-games, .ps4-things, .gadget-box, .resize, .logo-jumbo, .ps5-width, .logo, .discount-box, .social-box, .sie-size  {
+.banner-ps-plus-games, .ps4-things, .gadget-box, .resize, .logo-jumbo, .ps5-width, .logo, .discount-box, .social-box {
     width: 100%;
+    cursor: pointer;
 }
 .strong {
     color: black;
@@ -44,8 +45,9 @@
 .radius:hover {
     background-color: grey;
     border-color: grey;
+    cursor: pointer;
 }
-.jumbotron {
+.jumbotron, .jumbotron-2 {
     height: 900px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -63,18 +65,17 @@
     background-color: lightcoral;
     border-color: lightcoral;
 }
-.box {
+.box, .box-border {
     width: 100%;
     border-radius: 20px;
 }
 .box-border {
     border: 2px solid white;
-    width: 100%;
-    border-radius: 20px;
 }
 .box-border:hover {
     border: 2px solid #2D64E6;
     border-radius: 20px;
+    cursor: pointer;
 }
 .no-limits {
     color: #2D64E6;
@@ -105,8 +106,6 @@
 .jumbotron-2 {
     height: 700px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-size: cover;
-    background-position: center;
 }
 .list-of-games {
     background-color: #1F1F1F;
@@ -123,6 +122,7 @@
 .box-available-border:hover {
     border: 2px solid #2D64E6;
     border-radius: 20px;
+    cursor: pointer;
 }
 .background-psplus {
     background-color: #BEBCBB;
@@ -143,4 +143,7 @@
 li {
     list-style: none;
     padding: 5px 0;
+}
+.sie-size {
+    width: 120px;
 }
