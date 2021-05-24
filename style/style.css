@@ -2,7 +2,7 @@
     height: 50px;
     background-color: black;
 }
-.banner-ps-plus-games, .ps4-things, .gadget-box, .resize, .logo-jumbo, .ps5-width, .logo, .discount-box, .social-box  {
+.banner-ps-plus-games, .ps4-things, .gadget-box, .resize, .logo-jumbo, .ps5-width, .logo, .discount-box, .social-box, .sie-size  {
     width: 100%;
 }
 .strong {
@@ -136,4 +136,11 @@
 }
 .discount-box {
     padding: 20px;
+}
+.footer {
+    background-color: #00439C;
+}
+li {
+    list-style: none;
+    padding: 5px 0;
 }
