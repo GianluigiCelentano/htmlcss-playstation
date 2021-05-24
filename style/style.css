@@ -4,7 +4,6 @@
 }
 .logo {
     width: 100px;
-    flex-grow: 1;
 }
 .strong {
     color: black;
@@ -31,10 +30,10 @@
 .p-vertical-big {
     padding: 100px 0;
 }
-.p-jumbo {
-    padding-top: 350px;
+.p-vertical-plus {
+    padding: 200px 0 0 0;
 }
-.p-jumbo-2 {
+.p-jumbo, .p-jumbo-2 {
     padding-top: 350px;
 }
 .radius {
@@ -135,7 +134,16 @@
     border: 2px solid #2D64E6;
     border-radius: 20px;
 }
-
+.ps4-things {
+    width: 450px;
+}
+.background-psplus {
+    background-color: #BEBCBB;
+    margin-top: 50px;
+}
+.psplus-logo {
+    width: 500px;
+}
 
 
 @media all and (min-width: 576px) {
